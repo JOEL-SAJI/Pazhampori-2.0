@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA PAZHAM-O-METER 2.0</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌟 AURA PAZHAM-O-METER 2.0 🌟</h1>
+            <p>Calculate your aura score and see where you rank! 🥳</p>
+        </header>
+
+        <section id="calculator">
+            <h2>Select Your Actions:</h2>
+            <div class="categories">
+                <h3>Positive Aura 😇</h3>
+                <ul id="positive-options">
+                    <!-- 25 positive options -->
+                </ul>
+            </div>
+            <div class="categories">
+                <h3>Negative Aura 😈</h3>
+                <ul id="negative-options">
+                    <!-- 25 negative options -->
+                </ul>
+            </div>
+        </section>
+
+        <section id="result">
+            <h2>Your Aura Score: <span id="score">0</span></h2>
+            <form id="submit-score">
+                <input type="text" id="name" placeholder="Enter your name" required>
+                <button type="submit">Submit Score</button>
+            </form>
+        </section>
+
+        <section id="leaderboard">
+            <h2>Leaderboard 🏆</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboard-entries">
+                    <!-- Leaderboard entries -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>
